@@ -1,0 +1,284 @@
+---
+layout: page
+title: "会社概要"
+permalink: /home
+---
+  
+# 本文
+
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="ブルームサイエンス株式会社｜AI × 産婦人科 × 予防医療。経腟超音波画像をAI解析し、慢性子宮内膜炎（CE）のリスク評価を支援するImpla Vision-CEを開発。">
+<title>ブルームサイエンス株式会社｜AI × 産婦人科 × 予防医療</title>
+<style>
+:root{
+  --ink:#17324d; --muted:#60758a; --line:#dbe6ee; --bg:#f6fafc;
+  --accent:#2a9d8f; --accent2:#6c63ff; --white:#fff;
+  --max:1120px;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Noto Sans JP","Yu Gothic",Meiryo,sans-serif;color:var(--ink);line-height:1.8;background:#fff}
+a{color:inherit;text-decoration:none}
+.container{width:min(var(--max),92%);margin:auto}
+header{position:sticky;top:0;z-index:10;background:rgba(255,255,255,.94);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.nav{height:68px;display:flex;align-items:center;justify-content:space-between}
+.logo{font-weight:800;letter-spacing:.04em}
+.logo span{color:var(--accent)}
+.navlinks{display:flex;gap:24px;font-size:14px;color:var(--muted)}
+.hero{padding:92px 0 78px;background:
+ radial-gradient(circle at 85% 15%,#dff5f1 0,transparent 28%),
+ radial-gradient(circle at 10% 80%,#eeeaff 0,transparent 28%),var(--bg)}
+.kicker{font-size:14px;font-weight:800;letter-spacing:.14em;color:var(--accent)}
+h1{font-size:clamp(38px,6vw,72px);line-height:1.15;margin:18px 0 22px;letter-spacing:-.03em}
+.hero p{font-size:19px;color:var(--muted);max-width:760px}
+.cta{display:flex;gap:12px;flex-wrap:wrap;margin-top:32px}
+.btn{display:inline-block;padding:13px 22px;border-radius:999px;font-weight:700;border:1px solid var(--ink)}
+.btn.primary{background:var(--ink);color:#fff}
+.btn.secondary{background:#fff}
+.stats{margin-top:52px;display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+.stat{background:#fff;border:1px solid var(--line);border-radius:18px;padding:22px}
+.stat strong{display:block;font-size:32px;line-height:1.2}
+.stat small{color:var(--muted)}
+section{padding:88px 0}
+.section-head{max-width:720px;margin-bottom:42px}
+.eyebrow{font-size:13px;font-weight:800;letter-spacing:.12em;color:var(--accent2);text-transform:uppercase}
+h2{font-size:clamp(30px,4vw,48px);line-height:1.25;margin:10px 0 14px}
+.lead{font-size:17px;color:var(--muted)}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:24px}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.card{border:1px solid var(--line);border-radius:20px;padding:26px;background:#fff}
+.card h3{margin:0 0 8px;font-size:20px}
+.card p{margin:0;color:var(--muted)}
+.problem{background:var(--bg)}
+.flow{display:grid;grid-template-columns:repeat(5,1fr);gap:10px}
+.step{padding:22px 16px;border-radius:16px;background:#fff;border:1px solid var(--line);text-align:center}
+.step b{display:block;font-size:13px;color:var(--accent);margin-bottom:6px}
+.step strong{display:block;margin-bottom:6px}
+.data{background:var(--ink);color:#fff}
+.data .lead,.data .card p{color:#d8e4ee}
+.data .card{background:rgba(255,255,255,.06);border-color:rgba(255,255,255,.16)}
+.big-number{font-size:60px;line-height:1;font-weight:800}
+.table{width:100%;border-collapse:collapse;margin-top:22px;background:#fff;color:var(--ink);border-radius:14px;overflow:hidden}
+.table th,.table td{padding:13px;border-bottom:1px solid var(--line);text-align:left;font-size:14px}
+.table th{background:#f2f7fa}
+.timeline{display:grid;gap:12px}
+.timeline div{display:grid;grid-template-columns:120px 1fr;gap:20px;padding:17px 0;border-bottom:1px solid var(--line)}
+.timeline b{color:var(--accent)}
+.vision{background:linear-gradient(135deg,#eefaf7,#f3f1ff)}
+.quote{font-size:28px;line-height:1.55;font-weight:700;max-width:880px}
+footer{padding:38px 0;background:#102638;color:#cbd8e2}
+footer .brand{color:#fff;font-weight:800}
+.note{font-size:12px;color:var(--muted);margin-top:24px}
+@media(max-width:800px){
+ .navlinks{display:none}.hero{padding-top:65px}.stats,.grid2,.cards{grid-template-columns:1fr}
+ .flow{grid-template-columns:1fr}.timeline div{grid-template-columns:1fr;gap:3px}
+ h1{font-size:44px}.quote{font-size:23px}
+}
+</style>
+</head>
+<body>
+<header>
+  <div class="container nav">
+    <div class="logo">BLOOM <span>SCIENCE</span></div>
+    <nav class="navlinks">
+      <a href="#solution">Solution</a><a href="#data">Data</a><a href="#roadmap">Roadmap</a><a href="#company">Company</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+<section class="hero">
+  <div class="container">
+    <div class="kicker">AI × OBSTETRICS &amp; GYNECOLOGY × PREVENTIVE MEDICINE</div>
+    <h1>不妊「治療」から、<br>「予防」へ。</h1>
+    <p>
+      ブルームサイエンスは、産婦人科の臨床知とAIを組み合わせ、
+      不妊治療における「もっと早く知りたかった」を変えていきます。
+      経腟超音波（TVUS）画像から慢性子宮内膜炎（CE）の推定リスクを可視化する
+      <strong>Impla Vision-CE</strong>を開発しています。
+    </p>
+    <div class="cta">
+      <a class="btn primary" href="#solution">Impla Vision-CEを見る</a>
+      <a class="btn secondary" href="#company">会社・創業者について</a>
+    </div>
+    <div class="stats">
+      <div class="stat"><strong>0.906</strong><small>初期検証 ROC-AUC</small></div>
+      <div class="stat"><strong>229名</strong><small>初期検証の対象者数</small></div>
+      <div class="stat"><strong>20年</strong><small>代表の産婦人科臨床経験</small></div>
+    </div>
+  </div>
+</section>
+
+<section class="problem">
+  <div class="container">
+    <div class="section-head">
+      <div class="eyebrow">The Problem</div>
+      <h2>不妊治療で、<br>取り戻せないもの。</h2>
+      <p class="lead">
+        不妊治療では、検査・治療・再評価に時間がかかることがあります。
+        慢性子宮内膜炎（CE）を評価する生検やフローラ検査にも、身体的・経済的・時間的な負担があります。
+      </p>
+    </div>
+    <div class="cards">
+      <div class="card"><h3>痛い</h3><p>組織を採取する検査には、身体的・心理的なハードルがあります。</p></div>
+      <div class="card"><h3>高い</h3><p>事業計画書では、生検約1.1万円、フローラ検査4〜6万円と整理しています。</p></div>
+      <div class="card"><h3>遅い</h3><p>結果まで数週間を要する検査もあり、治療計画に空白が生じる場合があります。</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="solution">
+  <div class="container">
+    <div class="section-head">
+      <div class="eyebrow">Our Solution</div>
+      <h2>既存のエコー画像を、<br>新しい「入口」に。</h2>
+      <p class="lead">
+        Impla Vision-CEは、通常診療で撮影する経腟超音波画像をAIで解析し、
+        CEの<strong>推定リスク</strong>をスコアとして提示する医療機関向け診断補助ソフトです。
+        専用の撮像装置を必要とせず、既存ワークフローへの導入を目指します。
+      </p>
+    </div>
+    <div class="flow">
+      <div class="step"><b>01</b><strong>通常診療</strong>経腟超音波</div>
+      <div class="step"><b>02</b><strong>AIスクリーニング</strong>画像特徴を解析</div>
+      <div class="step"><b>03</b><strong>リスク表示</strong>推定リスクを可視化</div>
+      <div class="step"><b>04</b><strong>医師が判断</strong>必要時に確定検査</div>
+      <div class="step"><b>05</b><strong>臨床データ</strong>性能・運用を検証</div>
+    </div>
+    <p class="note">
+      ※本製品はAIのみで確定診断を行うものではなく、医師の意思決定を支援するスクリーニング／診断補助（SaMD）を目指しています。
+      薬事・臨床評価の要件に沿って段階的に製品化します。
+    </p>
+  </div>
+</section>
+
+<section id="data" class="data">
+  <div class="container">
+    <div class="section-head">
+      <div class="eyebrow">Scientific Data</div>
+      <h2>臨床知を、<br>検証可能なデータへ。</h2>
+      <p class="lead">
+        初期検証では、1施設・229名・348枚の経腟超音波画像を用い、
+        患者単位の5-fold Cross Validationで評価しました。
+      </p>
+    </div>
+    <div class="grid2">
+      <div class="card">
+        <div class="big-number">0.906</div>
+        <p>ROC-AUC<br>95% CI：0.871–0.937</p>
+      </div>
+      <div class="card">
+        <h3>その他の初期評価</h3>
+        <p>感度 89.4% ／ 特異度 78.7% ／ Accuracy 84.8%</p>
+        <p style="margin-top:14px">内膜ROIに限定した再評価では、複数モデルで性能が同等以上となり、CLIP-ViT-B/16ではAUC 0.875 → 0.936を確認しました。</p>
+      </div>
+    </div>
+    <p class="note" style="color:#b9cbd8">
+      ※これらは初期・事前検証の結果であり、臨床的有用性・安全性・多施設での再現性を保証するものではありません。
+      今後、多施設・外部データによる検証を予定しています。
+    </p>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="section-head">
+      <div class="eyebrow">A New Clinical Flow</div>
+      <h2>「失敗してから調べる」から、<br>「早期にリスクを把握する」へ。</h2>
+    </div>
+    <div class="grid2">
+      <div class="card"><h3>従来の考え方</h3><p>治療がうまくいかない → 原因を探索 → 精密検査・治療</p></div>
+      <div class="card"><h3>目指すプロトコル</h3><p>スクリーニング → リスク層別化 → 必要な患者に精密検査</p></div>
+    </div>
+    <p class="note">CEに対する治療やサプリメント等の介入が妊娠転帰を改善するかについては、現時点で十分なエビデンスが確立しておらず、今後の臨床研究課題として検証します。</p>
+  </div>
+</section>
+
+<section id="roadmap" class="problem">
+  <div class="container">
+    <div class="section-head">
+      <div class="eyebrow">Roadmap</div>
+      <h2>研究から、社会実装へ。</h2>
+      <p class="lead">最初の焦点はImpla Vision-CEの臨床的価値の実証。国内でエビデンスと薬事・販売基盤を構築し、その後の海外展開を目指します。</p>
+    </div>
+    <div class="timeline">
+      <div><b>2026.09</b><span>会社設立予定</span></div>
+      <div><b>2026.10</b><span>AIプロトタイプ完成・特許出願・薬事戦略策定</span></div>
+      <div><b>2026.11</b><span>AI β版・臨床研究開始・PoC施設確保・PMDA相談準備</span></div>
+      <div><b>2027.01</b><span>PMDA相談、事業仮説・初期販売の検証</span></div>
+      <div><b>2027.03–05</b><span>性能検証、QMS整備、公的資金申請・次回調達準備</span></div>
+      <div><b>2027.09–10</b><span>AI性能評価、SaMD申請・認証手続き</span></div>
+      <div><b>2028.03頃</b><span>SaMD認証取得を目標 ※時期はPMDA相談・評価結果等により更新</span></div>
+    </div>
+  </div>
+</section>
+
+<section id="company">
+  <div class="container">
+    <div class="section-head">
+      <div class="eyebrow">Founder &amp; Company</div>
+      <h2>臨床課題を知る人が、<br>実装まで担う。</h2>
+    </div>
+    <div class="grid2">
+      <div>
+        <h3>小柳 由利子</h3>
+        <p>代表取締役｜医師・医学博士・公衆衛生学修士</p>
+        <p class="lead">
+          産婦人科医として約20年、不妊治療の最前線で約10年。
+          臨床の現場で得た「何か気になる」という気づきを、勘で終わらせず、
+          AIテクスチャ解析による再現可能・検証可能なデータへ変えることを目指しています。
+        </p>
+        <p class="lead">医学に加え、公衆衛生・疫学・エビデンス・社会実装の視点から事業を推進します。</p>
+      </div>
+      <div class="card">
+        <h3>ブルームサイエンス株式会社</h3>
+        <p>設立：2026年9月1日（予定）</p>
+        <p>所在地：東京都千代田区</p>
+        <p>事業：プログラム医療機器（SaMD）としての不妊治療スクリーニングAIの開発・臨床・製造販売、およびエビデンスベースの不妊症予防サプリメントの企画・販売</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="vision">
+  <div class="container">
+    <div class="eyebrow">Future Outlook</div>
+    <h2>治療する不妊から、<br>予防する不妊へ。</h2>
+    <p class="quote">
+      一組でも多くの妊娠を望むカップルが、<br>
+      そのチャンスを逃すことなく、<br>
+      命を抱くことができる社会へ。
+    </p>
+    <p class="lead">
+      コア技術である「経腟超音波画像 × AI」を、将来的には着床タイミングや周産期リスクなど婦人科・産科領域へ展開。
+      多施設・多機種の画像、患者背景、治療経過、妊娠転帰をつなぐデータ基盤の構築を目指します。
+    </p>
+  </div>
+</section>
+
+<section style="padding:65px 0">
+  <div class="container">
+    <div class="section-head">
+      <div class="eyebrow">For Partners</div>
+      <h2>ともに、次の医療を。</h2>
+      <p class="lead">臨床研究、医療機関との共同研究、AI開発、事業・資金調達、パートナーシップなど、社会実装に向けた連携先を求めています。</p>
+    </div>
+    <a class="btn primary" href="mailto:info@example.com">お問い合わせ</a>
+    <p class="note">※公開前に正式な問い合わせ先メールアドレスへ差し替えてください。</p>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="container">
+    <div class="brand">ブルームサイエンス株式会社</div>
+    <div>AI × 産婦人科 × 予防医療</div>
+    <div style="margin-top:16px;font-size:12px">© 2026 Bloom Science Inc. All rights reserved.</div>
+  </div>
+</footer>
+</body>
+</html>
